@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <router-view style="margin:0px;padding:0px;" />
-    <footBar></footBar>
+  <div id="app" style="margin-bottom:250px;">
+    <router-view style="width:100%;" ref="router" />
+    <footBar ref="tabbar"></footBar>
   </div>
 </template>
 

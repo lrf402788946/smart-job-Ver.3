@@ -5,5 +5,33 @@
   font-size: 16px;
 }
 .selfTable{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+}
+.tableTitle{
+  font-size: 16px;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.tableContent{
+  font-size: 14px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.nut-tab {
+    position: relative;
+    border: 1px solid #fff;
+    font-size: 12px;
+    background: #fff;
+}
+.nut-tab-item {
+    height: 200px;
+    border: 1px solid #fff;
+    background: #000;
+    width: 100%;
+    padding: 0;
+    padding-top: 10px !important;
+    box-sizing: border-box;
 }

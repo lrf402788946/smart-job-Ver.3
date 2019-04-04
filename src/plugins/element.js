@@ -1,6 +1,11 @@
 import Vue from 'vue';
 // import { Message } from 'element-ui';
 import { Loading } from 'element-ui';
-
+import { Button } from 'element-ui';
+import { Tabs } from 'element-ui';
+import { TabPane } from 'element-ui';
 // Vue.use(Message);
 Vue.use(Loading);
+Vue.use(Button);
+Vue.use(Tabs);
+Vue.use(TabPane);
